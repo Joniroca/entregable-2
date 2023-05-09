@@ -1,4 +1,4 @@
-import "./countryAndWeatherDescription.css";
+import "./CountryAndWeatherDescription.css";
 
 import React from "react";
 
