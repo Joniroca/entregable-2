@@ -1,0 +1,21 @@
+.ul_container {
+    list-style: none;
+}
+
+.ul_container>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.ul_container>li>b {
+    color: #fff;
+    text-shadow: 0 0 15px black;
+    padding: 3px;
+}
+
+.ul_container>li>p {
+    color: rgba(69, 153, 250, 0.967);
+}

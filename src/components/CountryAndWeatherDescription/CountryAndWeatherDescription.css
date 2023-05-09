@@ -1,0 +1,23 @@
+.main_container__country {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5px;
+
+}
+
+.country {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+
+    color: rgba(2, 110, 237, 1);
+}
+
+.weather_description {
+    max-width: min-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: rgba(2, 110, 237, 1);
+}

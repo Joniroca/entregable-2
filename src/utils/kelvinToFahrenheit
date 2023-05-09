@@ -1,0 +1,9 @@
+import { kelvinToCelsius } from "./kelvinTocelsius";
+
+export const kelvinToFahrenheit = (kelvinDegrades) => {
+  const celsius = kelvinToCelsius(kelvinDegrades);
+  const FAHRENHEIT_CONVERSION = 9 / 5;
+  const FAHRENHEI_INITIAL_CONSTANT = 32;
+
+  return celsius * FAHRENHEIT_CONVERSION + FAHRENHEI_INITIAL_CONSTANT;
+};
