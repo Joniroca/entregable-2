@@ -1,4 +1,47 @@
-body {
+@media (min-width: 200px) {
+    body {
+        margin: 0;
+    }
+
+    .main_container {
+        display: grid;
+        place-content: center;
+
+        min-height: 100vh;
+        background: radial-gradient(50% 50% at 50% 50%, #D5F3FF 0%, #51B4E8 100%);
+        /* background: radial-gradient(50% 50% at 50% 50%, #2F2958 0%, #53388F 100%); */
+    }
+
+    .main_container>h1 {
+        /* margin: 10px auto; */
+        display: grid;
+        place-content: center;
+        /* padding: 6px; */
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .info_container {
+        margin: 0px 10px;
+        min-width: 200px;
+        min-height: 100.35px;
+        /* height: max-content; */
+        height: min-content;
+
+        background: linear-gradient(89.52deg, #E6F2FF 0.45%, #D5F3FF 97.05%);
+        box-shadow: 0px 4.8546px 4.8546px rgba(0, 0, 0, 0.25);
+        border-radius: 26.7003px;
+        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+        padding: 10px;
+        box-shadow: 0px 4.854599475860596px 4.854599475860596px 0px #00000040;
+    }
+}
+
+
+
+/* body {
     margin: 0;
 }
 
@@ -8,7 +51,7 @@ body {
 
     min-height: 100vh;
     background: radial-gradient(50% 50% at 50% 50%, #D5F3FF 0%, #51B4E8 100%);
-    /* background: radial-gradient(50% 50% at 50% 50%, #2F2958 0%, #53388F 100%); */
+    /* background: radial-gradient(50% 50% at 50% 50%, #2F2958 0%, #53388F 100%); 
 }
 
 .main_container>h1 {
@@ -36,3 +79,5 @@ body {
     box-shadow: 0px 4.854599475860596px 4.854599475860596px 0px #00000040;
 
 }
+
+*/
