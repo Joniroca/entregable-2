@@ -8,6 +8,7 @@ body {
 
     min-height: 100vh;
     background: radial-gradient(50% 50% at 50% 50%, #D5F3FF 0%, #51B4E8 100%);
+    /* background: radial-gradient(50% 50% at 50% 50%, #2F2958 0%, #53388F 100%); */
 }
 
 .main_container>h1 {

@@ -13,8 +13,13 @@
     font-weight: 400;
     font-size: 60px;
 
-    color: rgba(2, 110, 237, 1);
-    text-shadow: 0 0 15px rgb(93, 167, 251);
-    ;
+    color: rgb(52, 147, 255);
+    text-shadow: 0 0 15px rgb(153, 201, 255);
+
+}
+
+.container_degrees__img:hover {
+    font-size: 40px;
+    text-shadow: 0 0 25px rgb(240, 114, 114);
 
 }

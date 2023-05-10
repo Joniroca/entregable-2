@@ -1,0 +1,11 @@
+:root {
+    /* --colorBg: linear-gradient(89.52deg, #E6F2FF 0.45%, rgba(69, 153, 250, 0.967) 97.05%) */
+    --colorBg: rgba(69, 153, 250, 0.967)
+}
+
+
+
+.dark {
+    /* --colorBg: linear-gradient(89.52deg, #5836B3 0.45%, #5936B4 0.46%, #362A84 99.64%) */
+    --colorBg: #362A84
+}

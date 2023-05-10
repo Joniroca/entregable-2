@@ -1,4 +1,4 @@
-import "./countryAndWeatherDescription.css";
+import "./CountryAndWeatherDescription.css";
 
 import React from "react";
 
@@ -13,7 +13,7 @@ const CountryAndWeatherDescription = ({
         {city}, {country}
       </h2>
       <p className="weather_description">
-        Clima principalmente {weatherDescription}{" "}
+        Clima principalmente {weatherDescription}
       </p>
     </section>
   );
