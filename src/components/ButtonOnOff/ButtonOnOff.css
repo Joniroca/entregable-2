@@ -9,16 +9,16 @@
     border: none;
     border-radius: 50%;
     /* box-shadow: 0 0 15px #37ff00; */
-    box-shadow: var(--colorBg);
 
     padding: 15px;
 
     font-size: 10px;
     color: #fff;
     /* text-shadow: 1px 1px #37ff00; */
-    text-shadow: var(--colorBg);
 }
 
 .dark {
     background-color: var(--colorBg);
+    /* text-shadow: var(--colorBg); */
+    /* box-shadow: var(--colorBg); */
 }

@@ -19,11 +19,12 @@
 }
 
 .container_degrees__img:hover {
-    box-shadow: 0 0 15px chartreuse;
+    box-shadow: 0 0 15px var(--hoverColor);
     border-radius: 35px;
     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
 }
 
 .container_degrees__img p:hover {
-    color: chartreuse;
+    font-size: 3.8rem;
+    color: var(--hoverColor);
 }
